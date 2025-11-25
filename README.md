@@ -13,7 +13,7 @@ A modern, glassmorphism-styled personal blog website built with React. Features 
 
 ## 🚀 Live Demo
 
-Visit the live site: [bugs.github.io](https://bishnuneupane13.github.io/blogs)
+Visit the live site: [blogs](https://bishnuneupane13.github.io/blogs)
 
 ## 🛠️ Built With
 
