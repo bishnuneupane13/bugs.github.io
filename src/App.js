@@ -4,12 +4,17 @@ import Bugs from "./pages/Bugs.js";
 import Life from "./pages/Life.js";
 import BugBountyLearning from "./pages/bug/learn.js";
 import FoundBugs from "./pages/bug/bug.js";
-import './App.css';
+import { initScrollReveal } from './scrollReveal';
+import { useEffect } from 'react';
+import './App.css'
 
 function App() {
+  useEffect(() => {
+    initScrollReveal();
+  }, []);
+
   return (
     <>
-
       <Router basename="/blogs">
         <Routes>
           <Route path="/" element={<Home />} />

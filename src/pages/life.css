@@ -1,25 +1,28 @@
-/* Modern Life Page - Professional Design */
+/* Premium Life Page - Vibrant & Attractive */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 .App {
     min-height: 100vh;
-    background: #0a0a0a;
+    background: linear-gradient(135deg, #0a0a0a 0%, #0f0f0f 100%);
     font-family: 'Inter', sans-serif;
 }
 
-/* Page header */
+/* Page header with gradient */
 .page-title {
-    font-size: 2.25rem;
-    color: #ffffff;
+    font-size: 2.5rem;
+    background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     margin-bottom: 0.5rem;
     font-family: 'Inter', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: -0.03em;
 }
 
 .page-subtitle {
-    font-size: 1rem;
+    font-size: 1.0625rem;
     color: #a1a1aa;
     margin-bottom: 2.5rem;
     font-family: 'Inter', sans-serif;
@@ -31,48 +34,58 @@
     background: transparent;
 }
 
-/* Section styling */
+/* Premium Section styling */
 .life-section {
     margin-bottom: 2.5rem;
-    padding: 2rem;
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 12px;
-    background: rgba(255, 255, 255, 0.02);
+    padding: 2.25rem;
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    border-radius: 16px;
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.03) 0%, rgba(236, 72, 153, 0.03) 100%);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Section titles */
+.life-section:hover {
+    border-color: rgba(139, 92, 246, 0.3);
+    box-shadow: 0 8px 32px rgba(139, 92, 246, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Section titles with gradient */
 .section-title {
-    font-size: 1.5rem;
-    color: #ffffff;
+    font-size: 1.625rem;
+    background: linear-gradient(135deg, #ffffff 0%, #a1a1aa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -0.02em;
     margin-bottom: 0.75rem;
 }
 
-/* Time/Date display */
+/* Time/Date display with accent */
 .time {
-    font-size: 0.875rem;
-    color: #71717a;
+    font-size: 0.9375rem;
+    color: #8b5cf6;
     text-align: right;
     display: block;
-    margin-top: -2.25rem;
+    margin-top: -2.5rem;
     margin-bottom: 1.5rem;
     font-style: normal;
-    font-family: 'JetBrains Mono', monospace;
-    font-weight: 500;
+    font-family: 'Inter', monospace;
+    font-weight: 600;
 }
 
 .life-section p {
     color: #a1a1aa;
-    font-size: 0.9375rem;
+    font-size: 1rem;
     line-height: 1.7;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     margin-bottom: 1.5rem;
 }
 
-/* Image scroll container */
+/* Premium Image scroll */
 .image-scroll {
     display: flex;
     gap: 1rem;
@@ -82,38 +95,40 @@
 }
 
 .image-scroll::-webkit-scrollbar {
-    height: 6px;
+    height: 8px;
 }
 
 .image-scroll::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.03);
-    border-radius: 3px;
+    background: rgba(139, 92, 246, 0.05);
+    border-radius: 4px;
 }
 
 .image-scroll::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 3px;
+    background: linear-gradient(90deg, #8b5cf6, #ec4899);
+    border-radius: 4px;
 }
 
 .image-scroll::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 255, 255, 0.15);
+    background: linear-gradient(90deg, #a78bfa, #f472b6);
 }
 
 .image-scroll img {
-    width: 300px;
+    width: 320px;
     height: 200px;
     object-fit: cover;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 8px;
-    transition: transform 0.2s ease, border-color 0.2s ease;
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    border-radius: 12px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .image-scroll img:hover {
-    transform: scale(1.02);
-    border-color: rgba(255, 255, 255, 0.15);
+    transform: scale(1.05);
+    border-color: rgba(139, 92, 246, 0.4);
+    box-shadow: 0 8px 24px rgba(139, 92, 246, 0.3);
 }
 
-/* Video container */
+/* Video container with accent */
 .video-container {
     margin-top: 1.5rem;
     text-align: center;
@@ -123,14 +138,15 @@
     width: 100%;
     max-width: 560px;
     height: 315px;
-    border-radius: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    border: 1px solid rgba(139, 92, 246, 0.2);
+    box-shadow: 0 8px 24px rgba(139, 92, 246, 0.2);
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .page-title {
-        font-size: 2rem;
+        font-size: 2.125rem;
     }
 
     .page-subtitle {
@@ -138,7 +154,7 @@
     }
 
     .life-section {
-        padding: 1.5rem;
+        padding: 1.75rem;
     }
 
     .section-title {
@@ -146,7 +162,8 @@
     }
 
     .time {
-        margin-top: -2rem;
+        margin-top: -2.25rem;
+        font-size: 0.875rem;
     }
 
     .life-section p {
@@ -154,17 +171,17 @@
     }
 
     .image-scroll img {
-        width: 250px;
+        width: 280px;
     }
 }
 
 @media (max-width: 480px) {
     .page-title {
-        font-size: 1.75rem;
+        font-size: 1.875rem;
     }
 
     .life-section {
-        padding: 1.25rem;
+        padding: 1.5rem;
     }
 
     .section-title {
