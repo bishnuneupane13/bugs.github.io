@@ -8,36 +8,36 @@ function Bugs() {
             <div className="page-content">
                 <div className="section-header">
                     <h1>Bugs & Vulnerabilities</h1>
-                    <p>Security research, learning resources, and vulnerability findings.</p>
+                    <p>My bug bounty journey - what I'm learning and what I've found.</p>
                 </div>
 
-                {/* Bug Bounty Learning Section */}
+                {/* What I'm Learning Section */}
                 <div className="bugs-subsection">
                     <div className="subsection-title">
                         <span className="subsection-icon">📚</span>
-                        <h2>Bug Bounty Learning</h2>
+                        <h2>What I'm Learning</h2>
                     </div>
-                    <p className="subsection-desc">Resources, tutorials, and guides for learning bug bounty hunting.</p>
+                    <p className="subsection-desc">Current topics I'm studying and skills I'm developing in bug bounty hunting.</p>
 
                     <div className="empty-state">
-                        <div className="empty-icon">📖</div>
-                        <h3>Learning Resources Coming Soon</h3>
-                        <p>I'm working on creating educational content about bug bounty hunting and security research.</p>
+                        <div className="empty-icon">🎓</div>
+                        <h3>Learning in Progress</h3>
+                        <p>I'm currently learning various bug bounty techniques and will share my learning journey soon!</p>
                     </div>
                 </div>
 
-                {/* Bug Hunting Section */}
+                {/* What I Found Section */}
                 <div className="bugs-subsection">
                     <div className="subsection-title">
-                        <span className="subsection-icon">🎯</span>
-                        <h2>Bug Hunting</h2>
+                        <span className="subsection-icon">🔍</span>
+                        <h2>What I Found</h2>
                     </div>
-                    <p className="subsection-desc">Technical writeups, POCs, and real-world vulnerability findings.</p>
+                    <p className="subsection-desc">Bugs and vulnerabilities I've discovered during my bug bounty hunting.</p>
 
                     <div className="empty-state">
                         <div className="empty-icon">🐛</div>
-                        <h3>No Public Disclosures Yet</h3>
-                        <p>I haven't published any writeups yet. Stay tuned for future findings!</p>
+                        <h3>No Findings Yet</h3>
+                        <p>I haven't found any vulnerabilities to share publicly yet. Keep checking back!</p>
                     </div>
                 </div>
 

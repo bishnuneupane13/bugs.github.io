@@ -7,14 +7,14 @@ function Life() {
             <Navbar />
             <div className="page-content">
                 <div className="section-header">
-                    <h1>Life & Thoughts</h1>
-                    <p>Personal stories, career advice, and random musings.</p>
+                    <h1>Life & Daily Vlogs</h1>
+                    <p>Daily life experiences, personal stories, and moments from my journey.</p>
                 </div>
 
                 <div className="empty-state">
-                    <div className="empty-icon">🌱</div>
-                    <h3>Coming Soon</h3>
-                    <p>I haven't written anything here yet. Check back later!</p>
+                    <div className="empty-icon">🎥</div>
+                    <h3>No Vlogs Yet</h3>
+                    <p>I haven't shared any daily life content yet. Stay tuned for updates!</p>
                 </div>
             </div>
             <Footer />
