@@ -67,3 +67,48 @@
 .page-content {
     background: repeating-linear-gradient(to top, #f4e8d8, #f4e8d8 10px, #c9a87c 10px, #c9a87c 20px);
 }
+
+/* Responsive adjustments for Life page */
+@media (max-width: 768px) {
+    .life-section {
+        padding: 10px;
+    }
+
+    .image-scroll {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 8px;
+    }
+
+    .image-scroll img {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .life-section {
+        padding: 8px;
+    }
+
+    .image-scroll {
+        flex-direction: column;
+        overflow-x: hidden;
+        overflow-y: auto;
+        gap: 6px;
+    }
+
+    .image-scroll img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .page-title {
+        font-size: 2rem;
+    }
+}
