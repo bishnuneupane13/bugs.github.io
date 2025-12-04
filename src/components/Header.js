@@ -21,7 +21,8 @@ function Header() {
                 {/* Nav Links */}
                 <nav style={{ display: 'flex', gap: '1.2rem', flexWrap: 'wrap' }}>
                     <Link to="/" style={navLink}>/home</Link>
-                    <a href="https://bishnuneupane13.github.io/" style={{ textDecoration: 'none', color: '#888' }}>/about</a>
+                    <Link to="/about" style={navLink}>/about</Link>
+                    <a href="https://bishnuneupane13.github.io/" style={{ textDecoration: 'none', color: '#888' }}>/protofolio</a>
                     <Link to="/writeups" style={navLink}>/writeups</Link>
                     <Link to="/contact" style={navLink}>/contact</Link>
                 </nav>
