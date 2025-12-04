@@ -14,8 +14,7 @@ function Post() {
                         This is my first website.
                     </p>
                     <p style={{ marginTop: "1rem" }}>
-                        I'm excited to share my thoughts and
-                        projects with you. Stay tuned for more updates.
+                        This is my first website and i hope you will like it.
                     </p>
                 </>
             ),
